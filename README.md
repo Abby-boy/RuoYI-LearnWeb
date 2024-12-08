@@ -59,8 +59,14 @@ public AjaxResult uploadFile(MultipartFile file) throws Exception
         return AjaxResult.error(e.getMessage());
     }
 }
-关于阿里云OSS 文件上传的增强问题
-![阿里云OSS](./image/阿里云OSS.png)
+<h3>关于阿里云OSS 文件上传的增强问题</h3>
+引入坐标问题
+![阿里云OSS](.\image\阿里云文件上传功能.png)
+这里的坐标一个是阿里云OSS使用的坐标，另一个是关于不同存储桶方便引入的问题<a href="https://x-file-storage.xuyanwu.cn/#/" />
+dbk-admin的application.yml爆红问题
+![阿里云OSS](.\image\阿里云OSS.png)
+这部分yml文件爆红没有问题，相反如果该了功能就不能使用了，亲测了好几个AI工具修复但是都不能用，还有上述关于文件上传的功能代码，可以根据最新的代码使用，只需要按照要求即可。
+
 
 ```
 
