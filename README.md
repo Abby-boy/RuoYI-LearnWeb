@@ -1,6 +1,6 @@
 <p align="center" >
-<span style="background-color: #5373e0;display: inline-block"> 
-<img alt="logo" src="/assets/logo/logo.png">
+<span style="background-color: white ;display: inline-block"> 
+<img alt="logo" src="./src/assets/logo/logo.png">
 </span>
 </p>
 <h1 align="center" style="margin: 30px 0 30px; font-weight: bold;">若依springboot开发框架前端</h1>
@@ -67,10 +67,10 @@ public AjaxResult uploadFile(MultipartFile file) throws Exception
 
 <h3>关于阿里云OSS 文件上传的增强问题</h3>
 引入坐标问题
-![阿里云OSS](.\image\阿里云文件上传功能.png)
+![阿里云OSS](./image/阿里云文件上传功能.png)
 这里的坐标一个是阿里云OSS使用的坐标，另一个是关于不同存储桶方便引入的问题<a href="https://x-file-storage.xuyanwu.cn/#/" title="点击这里访问目标网站">访问目标网站</a>
 dbk-admin的application.yml爆红问题
-![阿里云OSS](.\image\阿里云OSS.png)
+![阿里云OSS](./image/阿里云OSS.png)
 这部分yml文件爆红没有问题，相反如果该了功能就不能使用了，亲测了好几个AI工具修复但是都不能用，还有上述关于文件上传的功能代码，可以根据最新的代码使用，只需要按照要求即可。
 
 <h2>关于接口文档的说明</h2>
@@ -94,7 +94,7 @@ dbk-admin的application.yml爆红问题
 
 说明：
 
-![swagger技术](.\image\swagger.png)
+![swagger技术](./image/swagger.png)
 
   第一个技术介于 swagger  和 knife4j 但是现在 swagger 接口文档技术基本不用，不要问为什么，单纯的 swagger 接口文档页面巨丑，下面两个坐标都是脱胎于 swagger 技术，第二个技术需要在 application.yml 文件配置一下:
 
@@ -120,7 +120,7 @@ knife4j:
 
 ## 业务介绍
 
-![流程](.\image\流程.png)
+![流程](./image/流程.png)
 
   黑马课程讲解时用的springboot,可以更具上图流程分解功能板块为springcloud项目，其实板块大致就是这四个板块。
 
